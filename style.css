@@ -250,6 +250,19 @@ main{
 .learn-more{
     color: green;
 }
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination_btn{
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    
+}
+.pagination_btn:first-child{
+border-width: 1px 1px 1px 1px;
+}
 /*main ends here*/
 /*footer starts here*/
 .footer{
