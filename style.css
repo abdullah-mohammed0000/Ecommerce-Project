@@ -250,6 +250,7 @@ main{
 .learn-more{
     color: green;
 }
+/*starts of paginaton*/
 .pagination{
     display: flex;
     justify-content: center;
@@ -262,6 +263,23 @@ main{
 }
 .pagination_btn:first-child{
 border-width: 1px 1px 1px 1px;
+}
+/*ends of pagination*/
+.product_details_left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.product_details_left img{
+    height: 20rem;
+    width: 30rem;
+}
+.product_details_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 /*main ends here*/
 /*footer starts here*/
@@ -305,6 +323,19 @@ border-width: 1px 1px 1px 1px;
 
 .products{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.product_details_left{
+    flex: 1;
+}
+.product_details_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.product_details_left img{
+    height: 20rem;
+    width: 20rem;
 }
 
 }
