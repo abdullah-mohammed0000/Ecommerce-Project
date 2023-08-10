@@ -5,7 +5,7 @@
     --padding:0.5rem;
     --transition:all 0.3s;
     --border-radius:0.6rem ;
-    --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205,202, 202, 0.5);
+    --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205,202, 202,0.5);
 }
 *{
     box-sizing: border-box;
@@ -113,7 +113,7 @@ nav{
     width: 3rem;
     height: 3rem;
     border-radius:50% ;
-    border: white 1px solid;
+    border: white 1px solid;]
     filter: saturate(0);
 }
 .profileicon:hover{
@@ -265,6 +265,7 @@ main{
 border-width: 1px 1px 1px 1px;
 }
 /*ends of pagination*/
+/*product design starts here*/
 .product_details_left{
     flex: 1;
     display: flex;
@@ -281,6 +282,78 @@ border-width: 1px 1px 1px 1px;
     flex-direction: column;
     gap: 0.5rem;
 }
+
+/*prodiuct design ends here*/
+
+/*cart design starts here */
+.cart{
+    padding: var(--padding);
+    gap: 1rem;
+}
+
+.cart .card{
+    margin-bottom: 1rem;
+}
+
+
+.cart_items{
+    flex: 1;
+}
+
+.cart_items-actions{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart_item input{
+    flex: 0.1;
+}
+.cart_item-img{
+    flex: 0.2;
+    width: 15rem;
+    height: 10rem;
+}
+.cart_item-description{
+    flex: 0.4;
+}
+.product_item-shipping{
+    margin-top: 0.5rem;
+    color: red;
+}
+.cart_item-actions{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.cart_payment{
+    flex: 1.5;
+}
+.cart_payment-summary >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.cart_payment-btn{
+width: 100%;
+}
+
+.cart_payment-methods  h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.cart_payment-methods div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+/*cart design ends here*/
 /*main ends here*/
 /*footer starts here*/
 .footer{
@@ -337,6 +410,26 @@ border-width: 1px 1px 1px 1px;
     height: 20rem;
     width: 20rem;
 }
+.cart_items,.cart_payment{
+    width: 90%;
+}
+
+.cart_item{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart_item-actions{
+    flex: 1;
+}
+.cart_item-description{
+    flex: 1.5;
+}
+.cart_item img{
+    flex: 1;
+    width: 12rem;
+}
+
 
 }
 
