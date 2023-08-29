@@ -73,6 +73,12 @@ align-items: center;
 .black{
     background-color: black;
 }
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-size: 2rem;
+}
 /*reset code and common ends here */
 /*navbar starts here*/
 #menu-icon{
@@ -113,7 +119,7 @@ nav{
     width: 3rem;
     height: 3rem;
     border-radius:50% ;
-    border: white 1px solid;]
+    border: white 1px solid;
     filter: saturate(0);
 }
 .profileicon:hover{
@@ -354,6 +360,50 @@ width: 100%;
     gap: 1rem;
 }
 /*cart design ends here*/
+/*register section starts here*/
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    min-height: 60vh;
+}
+
+.register .card{
+    width: 45rem;
+}
+
+.form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form-control label{
+    flex: 0.1;
+    text-align: left;
+}
+.form-control input,textarea{
+    flex: 0.9;
+    text-align: left;
+    padding: var(--padding);
+    border: 1px solid;
+    
+}
+.form-control textarea{
+    resize: none;
+    height: 12vh;
+}
+
+.form-btn-field{
+    border-radius: var(--border-radius);
+}
+.contact-btn{
+    width: 30%;
+}
+/*register section ends here*/
 /*main ends here*/
 /*footer starts here*/
 .footer{
