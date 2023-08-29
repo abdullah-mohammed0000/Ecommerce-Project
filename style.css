@@ -404,6 +404,21 @@ width: 100%;
     width: 30%;
 }
 /*register section ends here*/
+/*login starts here*/
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    min-height: 60vh;
+}
+
+.login .card{
+    width: 45rem;
+}
+
+/*login ends here*/
 /*main ends here*/
 /*footer starts here*/
 .footer{
