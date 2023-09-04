@@ -1,7 +1,7 @@
 /*reset code and common starts here */
 :root{
-    --primary-color:rgb(11,181,48);
-    --secondary-color:rgba(36,122,55,0.9);
+    --primary-color:#427840;
+    --secondary-color:#427840;
     --padding:0.5rem;
     --transition:all 0.3s;
     --border-radius:0.6rem ;
@@ -86,7 +86,7 @@ align-items: center;
 
 }
 nav{
-    font-family: fantasy;
+    font-family: oswald;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
@@ -120,7 +120,7 @@ nav{
     height: 3rem;
     border-radius:50% ;
     border: white 1px solid;
-    filter: saturate(0);
+    filter: saturate(0.9);
 }
 .profileicon:hover{
     filter: saturate(1);
@@ -441,6 +441,22 @@ width: 100%;
     background-color: transparent;
 }
 /*profile ends here*/
+/*contact starts here*/
+.contact-section{
+    min-height: 52vh;
+}
+.contact-container{
+    margin-top: 5rem;
+}
+.contact-address{
+    flex:1;
+    gap: 2rem;
+    flex-direction: column;
+}
+.contact_map{
+    width: 80%;
+}
+/*contact ends here*/
 /*main ends here*/
 /*footer starts here*/
 .footer{
@@ -517,6 +533,22 @@ width: 100%;
     width: 12rem;
 }
 
+.register .card{
+    width: 90%;
+}
+.login .card{
+    width: 90%;
+}
+.form,.form-control{
+    width: 100%;
+}
+.form-control input,textarea{
+    width: 80%;
+}
+.contact-address{
+    
+    width: 100%;
+}
 
 }
 
